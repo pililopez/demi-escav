@@ -1,0 +1,43 @@
+
+body {
+	font-family: Arial; 
+	background-color: black;}
+h1 { 
+	color: yellow; }
+p 
+	{ color: ffffff;}
+
+#menu li {
+	display: inline;}
+#menu {
+	background-color: #33CC66;
+	text-align: center;}
+#menu li a{
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	margin-right: 40px;
+	padding: 5px;}
+#menu li a:hover {
+	background-color: #2586d7;
+	padding-bottom: 5px;}
+#colum_drch {
+	width: 100%;
+	text-align: center;
+	color: yellow;
+	}
+#contenido {
+	width: 100%;
+	text-align: center;}
+img {
+	width: 100%;}
+.miniatura{
+	width: 20%;}
+#colum_drch img:hover { 
+	width: 30%;}
+#badge {
+	position: absolute;
+	top: 50px;
+	right: 60px;
+	width: 100px;}
