@@ -1,0 +1,40 @@
+	body  {font-family: Arial;}
+	
+	h1 { color: blue;}
+
+#menu{
+		background-color: #2175bc;
+		}
+#menu li {
+	display: inline;
+}
+
+#menu li a{
+		font-weight: bold;
+		color: #ffffff;
+		text-decoration: none;
+		margin-right: 40px;
+		padding: 5px
+}
+#menu li a:hover{
+	background-color: #2586d7;
+	padding-bottom: 5px;
+	
+}
+#colum_drch {
+	width: 30%;
+	float: right;
+}
+
+#contenido {
+	width:70%;
+}
+
+img{
+	width: 100%;
+}
+.miniatura{
+	width: 50px;
+	}
+	
+		

@@ -1,0 +1,55 @@
+	body  {font-family: Arial;}
+	
+	h1 { color: blue;}
+
+#menu{
+		background-color: #707070  ;
+		text-align: center
+		}
+#menu li {
+	display: inline;
+}
+
+#menu li a{
+		font-weight: bold;
+		color: #FF9966;
+		text-decoration: none;
+		margin-right: 40px;
+		padding: 5px
+		
+}
+#menu li a:hover{
+	background-color: #C0C0C0  ;
+	padding-bottom: 5px;
+	
+}
+#colum_drch {
+	width: 100%;
+ vertical-align: middle;
+	text-align:center
+
+}
+
+#contenido {
+	width:100%;
+	text-align:center
+}
+
+
+img{
+
+	vertical-align: middle;
+	width: 100%;
+	vertical-align: middle;
+}
+.miniatura{
+	
+	width: 200px;
+
+}
+#colum_drch img:hover{
+	width:25%;
+	color: #FF9966;
+	}
+	
+		

@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<title>Ejemplo 1 </title>
+		<style>
+			h1 { color: blue;}
+			</Style>
+		</head>
+		<body>
+			<h1>Ejemplo de archivo css</h1>
+			<p>VAMOS A USAR EL ARCHIVO <b>estilo1.css</b> para este ejercicio.</p>
+		</body>
+	</html>
+		
