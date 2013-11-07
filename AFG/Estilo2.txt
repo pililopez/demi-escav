@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Ejemplo 1</title>
+		<link rel="stylesheet" href="estilo2.css">
+	</head>
+	<body>
+		<hl>Ejemplo de uso de un archivo css</hl>
+		<p>Vamos a usar el archivo <b>estili1.css</b>para este ejercicio</p>
+			
+			<div id="menu">
+				<ul>
+					<li><a href="">Menu 1</a></li>
+					<li><a href="">Menu 2</a></li>
+					<li><a href="">Menu 3</a></li>
+				</ul>
+			</div>
+			<div> id="principal">
+				<div id="colum_drch">
+					<h2>Opciones</h2>
+					<img src="" class="miniatura" >
+					<img src="" class="miniatura" >
+					<img src="" class="miniatura" >
+				</div>
+				<div> id="contenido">
+					<p>Texto de la pagina principal.</p>
+					<img src="">
+				</div>	
+	</body>
+</html>
