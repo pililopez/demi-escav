@@ -1,0 +1,121 @@
+body {
+	font-family: Arial;
+	color: #333;
+	background-color:  #eee;
+}
+h1,h2 { color: #FFCC00;
+	text-shadow: 1px 1px 2px #333;
+
+ }
+
+
+.galeria {
+	/*border: 2px solid red*/;
+	width: 520px;
+	height: 100px;
+	text-align: center;
+	margin:auto;
+	padding-left: 50px;
+	padding-top: 10px;
+}
+
+
+ .rojo{
+ color:red;
+font-weight: bold;
+}
+#menu {
+	background-color:  #009900;
+	width: 80%;
+	text-align: center;
+	margin:auto;
+	border:2px solid;
+	border-radius:25px;
+	box-shadow: 25px 5px 30px #000000;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu li a{
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+	margin-right: 40px;
+	padding: 5px;
+}
+
+#menu li a:hover{
+	background-color: #FFCC00;
+	padding-top: 15px; 	
+}
+
+#colum_drch {
+	width: 100%;
+	text-align: center;
+	
+}
+
+#colum_drch h2 {
+	color: #FFCC00;
+}
+
+
+
+.galeria div {
+	/*border: 2px solid red;*/
+	width: 100px;
+	height: 80px;
+	float:left;
+	margin-right: 20px;
+
+}
+.galeria div:hover {
+/*border:2px solid green;*/
+height: 100px;
+background-size: 170px;
+box-shadow: 10px 10px 10px #888;
+
+}
+
+#item1 {background:url(images/foto1.jpg) no-repeat center; 
+	background-size: 150px}
+
+#item2 {background:url(images/foto2.jpg) no-repeat center;
+	background-size: 150px}
+#item3 {background:url(images/foto3.jpg) no-repeat center;
+	background-size: 150px}
+#item4 {background:url(images/foto4.jpg) no-repeat center;
+	background-size: 150px}
+
+#contenido {
+	width: 100%;
+	text-align: center;
+}
+
+#principal{
+text-align: center;
+}
+
+img {
+	width: 100%;
+	vertical-align: middle;
+}
+/* Para las imagenes del menu */
+.miniatura{
+	width: 20%;
+}
+
+#colum_drch img:hover{
+	width: 25%;	
+}
+
+#badge {
+	position: absolute;
+	top: 150px;
+	right: 60px;
+	width: 100px;
+	z-index: 0;
+}
+
