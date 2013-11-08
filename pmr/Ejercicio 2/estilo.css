@@ -1,15 +1,63 @@
 body {
 	font-family: Arial;
-	color: #eee;
-	background-color:  #000000;
+	color: #333;
+	background-color:  #eee;
 }
-h1 { color: #FFCC00; }
+h1, h2 { 
+	color: #FFCC00; 
+	text-shadow: 1px 1px 2px #333;
+
+}
+
+.rojo {
+	color: red;
+	font-weight: bold;
+}
+
+.galeria {
+	/*border: 2px solid red;*/
+	width: 520px;
+	height: 100px;
+	text-align: center;
+	margin: auto;
+	padding-left: 50px;
+	padding-top: 10px; 
+}
+
+.galeria div {
+	/*border: 2px solid green;*/
+	width: 100px;
+	height: 80px;
+	float: left;
+	margin-right: 20px;
+}
+
+.galeria div:hover {
+	/*border: 2px solid green;*/
+	height: 100px;
+	background-size:170px;
+	box-shadow: 5px 5px 10px #888;
+}
+
+#item1 { 
+	background: url(images/foto1.jpg) no-repeat center;
+	background-size:180px;
+}
+#item2 { background: url(images/foto2.jpg) no-repeat center;
+background-size:150px;}
+#item3 { background: url(images/foto3.jpg) no-repeat center;
+background-size:150px;}
+#item4 { background: url(images/foto4.jpg) no-repeat center;
+background-size:150px;}
 
 #menu {
 	background-color:  #009900;
-	width: 100%;
+	width: 80%;
 	text-align: center;
-	
+	margin: auto;
+	border:2px solid;
+    border-radius: 25px;
+    box-shadow: 10px 10px 80px #888888;
 }
 
 #menu li {
@@ -27,6 +75,7 @@ h1 { color: #FFCC00; }
 #menu li a:hover{
 	background-color: #FFCC00;
 	padding-top: 15px; 	
+
 }
 
 #colum_drch {
@@ -54,6 +103,7 @@ img {
 /* Para las imagenes del menu */
 .miniatura{
 	width: 20%;
+
 }
 
 #colum_drch img:hover{
@@ -65,6 +115,6 @@ img {
 	top: 150px;
 	right: 60px;
 	width: 100px;
-	z-index: 0;
+	
 }
 
