@@ -6,12 +6,52 @@ body {
 	background-size:1920px;
 	background-attachment:fixed;
 }
-h1 { color: #FF00BF; }
+h1,h2 { color: #FF00BF;
+	text-shadow:1px 1px 2px #000000;
+ }
+.rosa{
+	color: #FFFFFF;
+	font-weight: bold;
+}
+div.galeria{
+	/*border: 2px solid 	red;*/
+	width: 1300px;
+	height: 350px;
+	text-align: center;
+	margin: auto;
+	padding-left:50px;
+	padding-top: 20px;
+}
+
+div.galeria div{
+	/*border: 2px solid red;*/
+	width:300px;
+	height:300px;
+	float:left;
+	margin-right: 20px;
+}
+#item1{
+	background: url(images/big-thunder-mountain.jpg) no-repeat center;
+	background-size:500px;
+}
+#item2{
+	background: url(images/o-DISNEYLAND-RIDES-CLOSE-facebook.jpg) no-repeat center;
+	background-size:450px;
+}
+#item3{background: url(images/BeautyandtheBeast.jpg) no-repeat center;
+	background-size:350px;
+}
+#item4{background: url(images/disneyland-e1322221701908.jpg) no-repeat center;
+	background-size:450px;
+}
 
 #menu {
 	background-color:  #F6CEEC;
-	width: 100%;
+	width: 80%;
 	text-align: center;
+	margin: auto;
+	border: 2px solid;
+	border-radius: 25px;
 	
 }
 
@@ -29,7 +69,8 @@ h1 { color: #FF00BF; }
 
 #menu li a:hover{
 	background-color: #FF00BF;
-	padding-top: 15px; 	
+	padding-top: 20px; 	
+	padding-bottom: 20px;
 }
 
 #colum_drch {

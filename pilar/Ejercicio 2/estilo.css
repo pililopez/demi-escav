@@ -3,12 +3,43 @@ body {
 	color: #eee;
 	background-color:  #505952;
 }
-h1 { color: #FFCC00; }
+h1,h2 { color: #FFCC00;
+	text-shadow: 3px 3px 4px #322512;
+ }
+ .rojo {color: red;
+ 		font-weight: bold;}
+div.galeria {/*border: 2px solid red*/;
+			width: 500px;
+			height: 100px;
+			text-align: center;
+			margin: auto;
+			padding-left: 50px;
+			padding-top: 10px;} 
+div.galeria div{
+			/*border: 2px solid green*/;
+			width: 100px;
+			height: 80px;
+			float: left;
+			margin-right: 20px;}
+.galeria div:hover {/*border:2px solid green;*/
+					width: 120px;
+					height: 100px;
+					background-size: 170px;
+					box-shadow: 5px 5px 10px #222;}
+
+#item1 {background: url(images/egipto-0.jpg) no-repeat center; background-size: 150px }
+#item2 {background: url(images/egipto2.jpg) no-repeat center; background-size: 150px}
+#item3 {background: url(images/fondo_egipto_hannibal_2.jpg) no-repeat center; background-size: 150px}
+#item4 {background: url(images/piramides-de-egipto-por-dentro.jpg) no-repeat center; background-size: 150px}
 
 #menu {
 	background-color:  #124573;
-	width: 100%;
+	width: 60%;
 	text-align: center;
+	margin: auto;
+	border: 2px solid #984712;
+	border-radius: 25px;
+	box-shadow: 52px 22px 97px;
 	
 }
 
@@ -25,7 +56,7 @@ h1 { color: #FFCC00; }
 }
 
 #menu li a:hover{
-	background-color: #FFCC00;
+	background-color: #250215;
 	padding-top: 15px; 	
 }
 
@@ -50,7 +81,7 @@ img {
 	width: 100%;
 	vertical-align: middle;
 }
-
+/*para las imagenes del menu*/
 .miniatura{
 	width: 20%;
 }
